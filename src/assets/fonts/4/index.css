@@ -1,0 +1,9 @@
+@font-face {
+  font-family: AlimamaFangYuanTiVF-Thin;
+  src:
+    url('./AlimamaFangYuanTiVF-Thin.woff') format('woff'),
+    url('./AlimamaFangYuanTiVF-Thin.ttf') format('truetype'),
+    url('./AlimamaFangYuanTiVF-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

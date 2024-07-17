@@ -1,0 +1,9 @@
+@font-face {
+  font-family: AlimamaAgileVF-Thin;
+  src:
+    url('./AlimamaAgileVF-Thin.woff') format('woff'),
+    url('./AlimamaAgileVF-Thin.ttf') format('truetype'),
+    url('./AlimamaAgileVF-Thin.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}

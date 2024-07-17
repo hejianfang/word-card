@@ -1,0 +1,9 @@
+@font-face {
+  font-family: AlabamaDongFangDaKai-Regular;
+  src:
+    url('./AlimamaDongFangDaKai-Regular.woff') format('woff'),
+    url('./AlimamaDongFangDaKai-Regular.ttf') format('truetype'),
+    url('./AlimamaDongFangDaKai-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

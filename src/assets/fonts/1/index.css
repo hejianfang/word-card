@@ -1,0 +1,9 @@
+@font-face {
+  font-family: AlabamaDaoLiTi;
+  src:
+    url('./AlimamaDaoLiTi.woff') format('woff'),
+    url('./AlimamaDaoLiTi.ttf') format('truetype'),
+    url('./AlimamaDaoLiTi.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

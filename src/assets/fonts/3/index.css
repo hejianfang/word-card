@@ -1,0 +1,9 @@
+@font-face {
+  font-family: AlabamaShuHeiTi-Bold;
+  src:
+    url('./AlimamaShuHeiTi-Bold.woff') format('woff'),
+    url('./AlimamaShuHeiTi-Bold.ttf') format('truetype'),
+    url('./AlimamaShuHeiTi-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

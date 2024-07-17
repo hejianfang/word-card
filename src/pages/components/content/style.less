@@ -1,0 +1,100 @@
+.word {
+  display: flex;
+  margin-top: 20px;
+
+  .option-card {
+    margin-left: 20px;
+    flex: 1;
+
+    h3 {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .plat-form {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .cardConfig {
+      font-size: 14px;
+
+      > p {
+        margin-top: 6px;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      .option-item {
+        margin-top: 10px;
+
+        > p {
+          margin-bottom: 4px;
+        }
+
+        .ant-radio-group {
+          display: flex;
+          flex-wrap: wrap;
+
+          .ant-radio-button-wrapper {
+            margin-right: 3px;
+            margin-bottom: 3px;
+            border-radius: 4px;
+            padding: 0;
+            width: 80px;
+            text-align: center;
+            border-block-start-width: 1px;
+            border-inline-start-width: 1px;
+            border-inline-end-width: 1px;
+
+            &::before {
+              content: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .word-card-wrap {
+    flex: 3;
+
+    .input {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .back {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .word-back {
+      position: relative;
+      width: 311px;
+      height: 415px;
+
+      .background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .content {
+        position: absolute;
+        z-index: 100;
+        padding: 8px 10px;
+        white-space: pre-wrap;
+        line-height: 1.6;
+        letter-spacing: 1px; /* 设置为你想要的间距值 */
+      }
+    }
+  }
+}
